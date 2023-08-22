@@ -1,6 +1,6 @@
 {
-  "name": "@winnies/string_number_converter",
-  "version": "1.0.0",
+  "name": "string_number_converter",
+  "version": "1.0.1",
   "description": "convert string and number",
   "main": "index.ts",
   "scripts": {
