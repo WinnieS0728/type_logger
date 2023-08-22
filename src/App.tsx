@@ -1,13 +1,14 @@
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import {useGetNumber,useGetString} from "string_number_converter";
+import { useGetNumber, useGetString } from "string_number_converter";
 
 function App() {
-  console.log(useGetNumber('123'));
-  console.log(useGetString(456));
-  
-  
+  const number = useGetNumber("123");
+  // console.log(number);
+
+  const string = useGetString(123);
+  // console.log(string);
 
   return (
     <>

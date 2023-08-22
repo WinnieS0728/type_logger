@@ -1,29 +1,8 @@
 {
   "name": "winnies_type_logger-1",
-  "private": false,
   "version": "1.0.1",
-  "description": "function log input type",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/useTypeLogger.umd.js",
-  "module": "./dist/useTypeLogger.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/useTypeLogger.es.js",
-      "require": "./dist/useTypeLogger.umd.js"
-    }
-  },
   "author": "WinnieS",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WinnieS0728/type_logger.git"
-  },
-  "bugs": {
-    "url": "https://github.com/WinnieS0728/type_logger/issues"
-  },
-  "homepage": "https://github.com/WinnieS0728/type_logger#readme",
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -34,8 +13,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "string_number_converter": "^1.0.0",
-    "winnies_type_logger-1": "^1.0.1"
+    "string_number_converter": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.5.1",
