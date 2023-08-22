@@ -1,0 +1,11 @@
+{
+  "name": "@winnies/string_number_converter",
+  "version": "1.0.0",
+  "description": "convert string and number",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WinnieS",
+  "license": "MIT"
+}

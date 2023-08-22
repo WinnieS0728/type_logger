@@ -1,0 +1,53 @@
+{
+  "name": "winnies_type_logger-1",
+  "private": false,
+  "version": "1.0.1",
+  "description": "function log input type",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/useTypeLogger.umd.js",
+  "module": "./dist/useTypeLogger.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/useTypeLogger.es.js",
+      "require": "./dist/useTypeLogger.umd.js"
+    }
+  },
+  "author": "WinnieS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinnieS0728/type_logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WinnieS0728/type_logger/issues"
+  },
+  "homepage": "https://github.com/WinnieS0728/type_logger#readme",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "string_number_converter": "^1.0.0",
+    "winnies_type_logger-1": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
