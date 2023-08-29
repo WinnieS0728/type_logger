@@ -1,8 +1,9 @@
 {
-  "name": "string_number_converter",
-  "version": "1.0.1",
+  "name": "@winnies0728/string_number_converter",
+  "version": "1.0.0",
   "description": "convert string and number",
   "main": "index.ts",
+  "repository": "https://github.com/WinnieS0728/type_logger",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
